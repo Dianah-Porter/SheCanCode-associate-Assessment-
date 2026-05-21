@@ -54,9 +54,9 @@ Build a RESTful API that mimics a payment processing backend. It must check for 
 
 - [ ] The API accepts a `POST` request to endpoint `/process-payment`.
 - [ ] The request header must contain `Idempotency-Key: <some-unique-string>`.
-- [ ] The request body accepts a JSON object (e.g., `{"amount": 100, "currency": "GHS"}`).
+- [ ] The request body accepts a JSON object (e.g., `{"amount": 100, "currency": "RWF"}`).
 - [ ] The server simulates processing (e.g., a 2-second delay) and returns a `200 OK` or `201 Created` response.
-- [ ] The response body should include a status message: `"Charged 100 GHS"`.
+- [ ] The response body should include a status message: `"Charged 100 RWF"`.
 
 ### User Story 2: The Duplicate Attempt (Idempotency Logic)
 
